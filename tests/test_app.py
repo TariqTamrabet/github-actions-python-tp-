@@ -1,5 +1,5 @@
 # tests/test_app.py
-from src.main import lin_reg  # Exemple simple, testez une fonction ou comportement
+from src.main import lin_reg  
 
 
 def test_dummy():

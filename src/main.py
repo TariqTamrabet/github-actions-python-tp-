@@ -309,7 +309,7 @@ joblib.dump(full_pipeline, "model_pipeline.pkl")
 # Mission 3 : Analyse des features
 # Question 1 : 1. Calculer les importances globales des features (à l’aide de SHAP ou des features importances).
 
-print("Question 1 : Calculer les importances globales des features (à l’aide de SHAP ou des features importances)")
+# Question 1 : Calculer les importances globales des features (à l’aide de SHAP ou des features importances)
 
 # Par exemple, on prend 1000 lignes au maximum
 max_samples = 1000
@@ -343,7 +343,7 @@ plt.show()
 
 
 
-print("Question 2 : Analyser l’impact local pour des exemples individuels (à l’aide de SHAP)")
+# Question 2 : Analyser l’impact local pour des exemples individuels (à l’aide de SHAP)")
 
 # Ici Choisir une instance à expliquer
 i = 0
