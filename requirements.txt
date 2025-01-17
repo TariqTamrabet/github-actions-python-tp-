@@ -1,0 +1,11 @@
+mlflow
+scikit-learn
+shap
+joblib
+matplotlib
+pandas
+numpy
+fastapi
+uvicorn[standard]
+pytest
+
