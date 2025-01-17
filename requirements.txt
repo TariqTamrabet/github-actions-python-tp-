@@ -8,4 +8,4 @@ numpy
 fastapi
 uvicorn[standard]
 pytest
-
+ipython
