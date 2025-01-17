@@ -10,14 +10,15 @@ python = "^3.9"
 mlflow = "*"
 scikit-learn = "*"
 shap = "*"
-ipython = "*"
 joblib = "*"
 matplotlib = "*"
 pandas = "*"
 numpy = "*"
 fastapi = "*"
 uvicorn = "*"
+ipython = "*"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^7.0.0"
+flake8 = "*"
 
