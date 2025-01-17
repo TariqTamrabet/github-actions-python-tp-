@@ -28,9 +28,16 @@ jobs:
           curl -sSL https://install.python-poetry.org | python -
           export PATH="$HOME/.local/bin:$PATH"
 
+
+
       - name: Run tests
         run: |
           poetry run pytest
+
+
+- name: Run Flake8
+  run: poetry run flake8 .
+
 
 
     steps:
