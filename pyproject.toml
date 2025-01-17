@@ -17,6 +17,6 @@ numpy = "*"
 fastapi = "*"
 uvicorn = "*"
 
-[tool.poetry.dev-dependencies]
+[tool.poetry.group.dev.dependencies]
 pytest = "^7.0.0"
 
