@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "github-actions-python-tp"
+version = "0.1.0"
+description = "Projet d'exemple pour CI/CD avec GitHub Actions"
+authors = ["Tariq TAMRABET <votre.email@example.com>"]
+packages = [{ include = "src" }]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+mlflow = "*"
+scikit-learn = "*"
+shap = "*"
+joblib = "*"
+matplotlib = "*"
+pandas = "*"
+numpy = "*"
+fastapi = "*"
+uvicorn = "*"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.0.0"
+

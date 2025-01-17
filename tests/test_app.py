@@ -1,9 +1,6 @@
-from src.app import add
+# tests/test_app.py
+from src.main import lin_reg  # Exemple simple, testez une fonction ou comportement
 
-def test_add():
-    assert add(2, 3) == 5
-    assert add(-1, 1) == 0
-    
-    
-    
-#Bonjour
+def test_linear_regression_coefs():
+    # Vérifier que le modèle linéaire a été entraîné et possède des coefficients
+    assert hasattr(lin_reg, 'coef_')
